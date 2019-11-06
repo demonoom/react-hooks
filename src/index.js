@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import TraditionComponent from "./demo/traditionComponent";
+import HooksComponent from "./demo/hooksComponent";
+import UseStateComponent from './demo/userState/useState'
+import TraditionMount from './demo/useEffect/traditionMount'
+import UseEffectMount from './demo/useEffect/useEffectMount'
+import UseEffectUnmount from './demo/useEffect/useEffectUnmount'
+import UseContextComponent from './demo/useContext/useContext'
+import UseReducerComponent from "./demo/useReducer/useReducerComponent";
+import Demo from './demo/useReducer/demo/demo'
+import UseMemoComponent from './demo/useMemo/useMemo'
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<UseMemoComponent />, document.getElementById('root'));
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
