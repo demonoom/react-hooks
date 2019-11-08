@@ -10,6 +10,8 @@ import UseContextComponent from './demo/useContext/useContext'
 import UseReducerComponent from "./demo/useReducer/useReducerComponent";
 import Demo from './demo/useReducer/demo/demo'
 import UseMemoComponent from './demo/useMemo/useMemo'
+import UseRefComponent from './demo/useRef/useRef'
+import GetWinSize from './demo/customizeHooks/getWinSize'
 
-ReactDOM.render(<UseMemoComponent />, document.getElementById('root'));
+ReactDOM.render(<GetWinSize />, document.getElementById('root'));
 
